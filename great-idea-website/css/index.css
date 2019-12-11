@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -64,9 +65,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-nav a, header img{
-	display: inline-block;
-	width: 10%;
-	padding:2%;
 
+
+nav{
+	box-sizing: border-box;
+	display:inline-block;
+	width: 85%;
+	margin: 3% 0% 3% 15%;
+	
 }
+a{
+	display:inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: gray;
+	margin-right: 5%;
+	
+}
+
+h1{
+	display:inline-block;
+	box-sizing: border-box;
+	font-size: 80px;
+	text-align: center;
+	padding: 2%;
+	margin-left: 10%;
+
+	
+}
+h2{
+	font-size: 20px;
+}
+
+
+
+.started{
+	display:inline-block;
+	width: 150px;
+	text-align:center;
+	border: 1px solid black;
+	padding: 4px;
+	margin-left: 25%;
+}
+
+.first{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 27%;
+	margin-left:15%;
+	margin-bottom: 10%; 
+	
+}
+
+.round{
+	
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 5%;
+	
+}
+.copyright{
+	text-align: center;
+}
+
+.second{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 31%;
+	margin-left:12%;
+	padding: 1%;
+	
+}
+
+.second2{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 31%;
+	margin-left:1%;
+	padding: 1%;
+	
+}
+.rectangle{
+	margin: 0 20px 50px 200px;
+	width: 60%;
+	
+}
+
+p{
+	font-size: 16px;
+}
+
+.third1{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 300px;
+	margin-left:12%;
+	padding: 1%;
+	
+}
+.third2{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 300px;
+	margin-left:2%;
+	padding: 1%;
+	
+}
+
+.contact{
+	margin-left: 13%;
+}
+/*
+body{
+	width: 1000px;
+	box-sizing: border-box;
+	
+}
+/*
+.section3{
+	margin-left: 100px;
+} */
